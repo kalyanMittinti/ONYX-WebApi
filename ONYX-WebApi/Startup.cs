@@ -32,6 +32,11 @@ namespace ONYX_WebApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ONYX_WebApi", Version = "v1" });
             });
+
+            //services.AddDbContext<RegistrationContext>(options =>
+            //   options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+            //services.AddScoped<IProduct, ProductRepo>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
