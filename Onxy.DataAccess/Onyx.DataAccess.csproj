@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Onxy.models\Onyx.Models.csproj" />
+    <ProjectReference Include="..\Onyx.common\Onyx.Common.csproj" />
   </ItemGroup>
 
 </Project>

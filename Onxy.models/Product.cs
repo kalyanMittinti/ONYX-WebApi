@@ -12,7 +12,7 @@ namespace Onxy.models
         public string Productname   { get; set; }
         public decimal Price { get; set; }
         public string PictureUrl { get; set; }
-        public string categoryUrl { get; set; }
+        public string CategoryName { get; set; }
         public string BrandName { get; set; }
         public string SeriesName { get; set; }
         public string Type { get; set; }

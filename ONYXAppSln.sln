@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ONYX.WebApi", "ONYX-WebApi\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onyx.Models", "Onxy.models\Onyx.Models.csproj", "{64B9A01C-1C39-4909-860A-6D19DB12C33D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onyx.Common", "ONYX.Infrastructure\Onyx.Common.csproj", "{5DB81183-67A9-4E6C-AC79-1386F4BE630B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onyx.DataAccess", "Onxy.DataAccess\Onyx.DataAccess.csproj", "{7C235925-8627-4D4B-A036-133F2F0E8230}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onyx.DataAccess", "Onxy.DataAccess\Onyx.DataAccess.csproj", "{7C235925-8627-4D4B-A036-133F2F0E8230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onyx.Common", "Onyx.common\Onyx.Common.csproj", "{D22EA090-2468-4694-A023-D11C2981B3AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{64B9A01C-1C39-4909-860A-6D19DB12C33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64B9A01C-1C39-4909-860A-6D19DB12C33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64B9A01C-1C39-4909-860A-6D19DB12C33D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5DB81183-67A9-4E6C-AC79-1386F4BE630B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DB81183-67A9-4E6C-AC79-1386F4BE630B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DB81183-67A9-4E6C-AC79-1386F4BE630B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DB81183-67A9-4E6C-AC79-1386F4BE630B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C235925-8627-4D4B-A036-133F2F0E8230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C235925-8627-4D4B-A036-133F2F0E8230}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C235925-8627-4D4B-A036-133F2F0E8230}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C235925-8627-4D4B-A036-133F2F0E8230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22EA090-2468-4694-A023-D11C2981B3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22EA090-2468-4694-A023-D11C2981B3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22EA090-2468-4694-A023-D11C2981B3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22EA090-2468-4694-A023-D11C2981B3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

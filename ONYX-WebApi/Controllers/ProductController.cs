@@ -11,11 +11,19 @@ namespace ONYX_WebApi.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-      public  ProductController(IProductRepo repo)
-        {
-            repo.GetProducts();
-        }
+        private readonly IProductRepo repo;
 
+        public  ProductController(IProductRepo _repo)
+        {
+            _repo = repo;
+            //repo.GetAll(0);
+
+        }
+        [HttpGet()]
+        public List<ProductRepo> Get()
+        {
+            return repo.GetAll();
+        }
 
 
     }
